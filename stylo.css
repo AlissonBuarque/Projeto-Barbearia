@@ -1,0 +1,128 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css');
+
+@font-face {
+    font-family: "MonumentExtended-Regular";
+    src: url("Font/MonumentExtended-Regular.otf") format("opentype");
+}
+
+* {
+    font-family: 'MonumentExtended-Regular';
+}
+
+header {
+    background-image: url(IMG/Topo.png);
+    background-repeat: no-repeat;
+}
+
+.rdvNav {
+    color: #F89369;
+}
+
+h1 {
+    font-size: 60px;
+    align-items: center;
+    background: green;
+    color: #FFFFFF;
+}
+
+
+h2 {
+    color: #FFFFFF;
+    font-family: 'Monument Extended';
+    font-style: normal;
+    padding: 3cm;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+}
+
+h3 {
+    background: #F89369;
+    font-size: 80px;
+    padding: 30px, 100px, 20px, 100px;
+}
+
+h4 {
+    background: peru;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+h5 {
+    background: green;
+    text-align: right;
+    padding: 50%;
+}
+
+h6 {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: right;
+    margin-top: 50px;
+}
+
+p {
+    font-size: 15px;
+    padding: 20px;
+    margin-left: 420px;
+    margin-right: 420px;
+    margin-top: 50px;
+    font-family: 'Lovelace Text';
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.corpoPNG01 {
+    width: 450px;
+    right: 100px;
+    top: 800px;
+    border-radius: 2px;
+}
+
+.corpoPNG02 {
+    width: 333.75px;
+    height: 333.75px;
+    left: 617.41px;
+    top: 1000px;
+
+}
+
+.corpoPNG03 {
+    width: 450px;
+    right: 100px;
+    top: 800px;
+}
+
+.corpoPNG04 {
+    position: absolute;
+    width: 200px;
+    height: 380px;
+    left: 1000px;
+    top: 2000px;
+
+}
+
+.corpoPNG05 {
+    width: 450px;
+    right: 100px;
+    top: 200px;
+}
+
+.corpoPNG06 {
+    width: 333.75px;
+    height: 333.75px;
+    left: 617.41px;
+    top: 1000px;
+
+}
+
+
+
+
+body {
+    background: blue;
+}
