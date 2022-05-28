@@ -18,11 +18,24 @@ header {
     color: #F89369;
 }
 
+li {
+    margin: 20px;
+    font-size: 11px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F89369;
+  }
+
 h1 {
     font-size: 60px;
-    align-items: center;
-    background: green;
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
+
 }
 
 
@@ -30,37 +43,44 @@ h2 {
     color: #FFFFFF;
     font-family: 'Monument Extended';
     font-style: normal;
-    padding: 3cm;
+    padding: 5cm;
     text-align: center;
     letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: 400;
     font-size: 11px;
     line-height: 14px;
+    margin-top: -80px;
 }
 
 h3 {
-    background: #F89369;
+    
     font-size: 80px;
     padding: 30px, 100px, 20px, 100px;
+    
 }
 
 h4 {
-    background: peru;
+    color: #F89369;
     margin-left: 200px;
-    margin-right: 200px;
+    margin-right: 279px;
     margin-top: 50px;
+    font-size: 55px;
+    width: 500px;
+
 }
 
 h5 {
-    background: green;
+    background: rgb(255, 0, 234);
     text-align: right;
-    padding: 50%;
+    left: 25px;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 420px;
+    font-size: 11px;
 }
 
 h6 {
     margin-left: 200px;
-    margin-right: 200px;
+    margin-right: 420px;
     text-align: right;
     margin-top: 50px;
 }
@@ -70,16 +90,67 @@ p {
     padding: 20px;
     margin-left: 420px;
     margin-right: 420px;
-    margin-top: 50px;
+    margin-top: 30px;
     font-family: 'Lovelace Text';
     font-style: normal;
     color: #FFFFFF;
 }
 
+.tonte {
+    transform: rotate(-2deg);
+    width: 100%;
+    margin-top: -40px;
+}
+
+.textRasage {
+    background:#F89369;
+    color: #F89369;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    padding-left: px;
+}
+
+.textColor {
+    color: rgb(255, 255, 255, 0);
+    -webkit-text-stroke: 1px  #F89369;
+}
+
+.alingBarbe {
+    margin-top: 100px;
+}
+
+.editSoins {
+    color: rgb(255, 255, 255, 0);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    background: #FFFFFF;
+}
+
+.editCoiffure {
+    color: rgb(255, 255, 255, 0);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    background: #FFFFFF;
+    margin-top: 70px;
+}
+
+.alingPeau {
+    margin-left: -130px;
+}
+
+.alingLorem {
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 400px;
+}
+
+.alingLorem2 {
+    margin-top: 50px;
+    margin-left: 240px;
+    margin-right: 510px;
+}
+
 .corpoPNG01 {
     width: 450px;
     right: 100px;
-    top: 800px;
+    margin-left: -200px;
     border-radius: 2px;
 }
 
@@ -94,14 +165,14 @@ p {
 .corpoPNG03 {
     width: 450px;
     right: 100px;
-    top: 800px;
+    margin-left: 70px;
+    margin-top: -110px;
 }
 
 .corpoPNG04 {
-    position: absolute;
     width: 200px;
     height: 380px;
-    left: 1000px;
+    margin-left: -350px;
     top: 2000px;
 
 }
@@ -109,14 +180,13 @@ p {
 .corpoPNG05 {
     width: 450px;
     right: 100px;
-    top: 200px;
+    margin-left: -350px;
+    border-radius: 2px;
 }
 
 .corpoPNG06 {
-    width: 333.75px;
-    height: 333.75px;
-    left: 617.41px;
-    top: 1000px;
+    width: 200px;
+    height: 380px;
 
 }
 
@@ -124,5 +194,5 @@ p {
 
 
 body {
-    background: blue;
+    
 }
