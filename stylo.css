@@ -71,18 +71,19 @@ h4 {
 h5 {
     background: rgb(255, 0, 234);
     text-align: right;
+    font-family: 'Lovelace Text';
     left: 25px;
     margin-top: 50px;
     margin-left: 200px;
-    margin-right: 420px;
-    font-size: 11px;
+    margin-right: 750px;
+    font-size: 19px;
 }
 
 h6 {
-    margin-left: 200px;
-    margin-right: 420px;
+    
+    margin-right: 750px;
     text-align: right;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 p {
@@ -106,7 +107,8 @@ p {
     background:#F89369;
     color: #F89369;
     -webkit-text-stroke: 1px rgb(0, 0, 0);
-    padding-left: px;
+    text-align: center;
+    
 }
 
 .textColor {
@@ -132,7 +134,8 @@ p {
 }
 
 .alingPeau {
-    margin-left: -130px;
+    margin-left: -200px;
+    
 }
 
 .alingLorem {
@@ -143,23 +146,24 @@ p {
 
 .alingLorem2 {
     margin-top: 50px;
-    margin-left: 240px;
-    margin-right: 510px;
+    margin-right: 700px;
+    margin-left: 250px;
+    
 }
 
 .corpoPNG01 {
     width: 450px;
     right: 100px;
-    margin-left: -200px;
+    margin-left: -500px;
     border-radius: 2px;
 }
 
 .corpoPNG02 {
     width: 333.75px;
     height: 333.75px;
-    left: 617.41px;
-    top: 1000px;
-
+    margin-top: -400px;
+    margin-left: -700px;
+    z-index: 1;
 }
 
 .corpoPNG03 {
@@ -172,7 +176,7 @@ p {
 .corpoPNG04 {
     width: 200px;
     height: 380px;
-    margin-left: -350px;
+    margin-left: -310px;
     top: 2000px;
 
 }
@@ -182,17 +186,20 @@ p {
     right: 100px;
     margin-left: -350px;
     border-radius: 2px;
+    margin-left: -500px;
 }
 
 .corpoPNG06 {
     width: 200px;
     height: 380px;
-
+    z-index: 1;
+    margin-left: -600px;
+    margin-top: -450px;
 }
 
 
 
 
 body {
-    
+    background: blue;
 }
