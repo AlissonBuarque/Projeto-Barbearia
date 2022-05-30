@@ -80,9 +80,6 @@ h5 {
 }
 
 h6 {
-    
-    margin-right: 750px;
-    text-align: right;
     margin-top: 80px;
 }
 
@@ -101,6 +98,11 @@ p {
     transform: rotate(-2deg);
     width: 100%;
     margin-top: -40px;
+}
+
+.tonteNous {
+    transform: rotate(2deg);
+    
 }
 
 .textRasage {
@@ -134,8 +136,8 @@ p {
 }
 
 .alingPeau {
-    margin-left: -200px;
-    
+    margin-left: -150px;
+    right: 1000px;
 }
 
 .alingLorem {
@@ -146,9 +148,42 @@ p {
 
 .alingLorem2 {
     margin-top: 50px;
-    margin-right: 700px;
+    margin-right: 710px;
     margin-left: 250px;
     
+}
+
+.savoirPlus {
+margin-left: 200px;
+background:#F89369;
+margin-right: 300px;
+}
+
+.savoirPlus02 {
+    margin-left: 440px;
+}
+
+.produitsNos {
+    width: 700px;
+    margin-left: 100px;
+    
+}
+
+.valorColor {
+    color: #F89369;
+}
+
+.colorValor {
+    color: #F89369;
+    font-size: 25px;
+    font-family: 'Monument Extended';
+    gap: 5px;
+}
+
+.fontEdit {
+    font-size: 21px;
+    width: 200px;
+    background: #F89369;
 }
 
 .corpoPNG01 {
@@ -197,9 +232,19 @@ p {
     margin-top: -450px;
 }
 
+.corpoPNG10 {
+  padding: 100px;
+  background: #F89369;
+  margin-top: 100px;
+}
+
+.corpoPNG11 {
+   padding: 200px;
+
+  }
 
 
 
 body {
-    background: blue;
+    
 }
