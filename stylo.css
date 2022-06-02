@@ -9,9 +9,28 @@
     font-family: 'MonumentExtended-Regular';
 }
 
-header {
+.buttonClose {
+    color: #F89369;
+    font-family: 'MonumentExtended-Regular';
+}
+
+.bodyCuston {
     background-image: url(IMG/Topo.png);
     background-repeat: no-repeat;
+    background-color: #131313;
+    background-position: center;
+}
+
+@media (max-width: 1199px) {
+    .bodyCuston ul {}
+}
+
+header {
+    background-image: url(IMG/Topo.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-color: #131313;
+
 }
 
 .rdvNav {
@@ -19,8 +38,10 @@ header {
 }
 
 li {
+    margin-top: -200px;
     margin: 20px;
     font-size: 11px;
+    margin-left: 50px;
 }
 
 a {
@@ -30,7 +51,7 @@ a {
 
 a:hover {
     color: #F89369;
-  }
+}
 
 h1 {
     font-size: 60px;
@@ -52,10 +73,10 @@ h2 {
 }
 
 h3 {
-    
+
     font-size: 80px;
     padding: 30px, 100px, 20px, 100px;
-    
+
 }
 
 h4 {
@@ -69,14 +90,8 @@ h4 {
 }
 
 h5 {
-    background: rgb(255, 0, 234);
     text-align: right;
     font-family: 'Lovelace Text';
-    left: 25px;
-    margin-top: 50px;
-    margin-left: 200px;
-    margin-right: 750px;
-    font-size: 19px;
 }
 
 h6 {
@@ -94,45 +109,150 @@ p {
     color: #FFFFFF;
 }
 
+.laBarbeEdit {
+    left: 25px;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 750px;
+    font-size: 19px;
+    width: 380px;
+}
+
 .tonte {
     transform: rotate(-2deg);
     width: 100%;
     margin-top: -40px;
+    overflow: none;
+    background: #F89369;
+    z-index: -10;
 }
 
 .tonteNous {
     transform: rotate(2deg);
-    
+    background: #F89369;
+    z-index: -10;
+    position: relative;
 }
 
 .textRasage {
-    background:#F89369;
+    background: #F89369;
     color: #F89369;
     -webkit-text-stroke: 1px rgb(0, 0, 0);
-    text-align: center;
-    
+    font-weight: 400;
+    font-size: 110px;
+    margin-left: 50px;
+
 }
 
 .textColor {
     color: rgb(255, 255, 255, 0);
-    -webkit-text-stroke: 1px  #F89369;
+    -webkit-text-stroke: 1px #F89369;
 }
 
 .alingBarbe {
-    margin-top: 100px;
+    margin-top: 130px;
+}
+
+.cardOne {
+    width: 380px;
+    height: 571px;
+    left: 0px;
+    top: 326.56px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    transform: rotate(-10deg);
+    margin-top: 60px;
+    background: #F5F5F0;
+}
+
+.cardTwo {
+    width: 402px;
+    height: 639px;
+    left: 433.65px;
+    top: 217px;
+    background: #F5F5F0;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    z-index: 999;
+}
+
+.cardThree {
+    width: 380px;
+    height: 545px;
+    left: 896.64px;
+    top: 260.58px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    transform: rotate(10deg);
+    margin-top: 60px;
+    margin-bottom: 200px;
+    background: #F5F5F0;
 }
 
 .editSoins {
     color: rgb(255, 255, 255, 0);
     -webkit-text-stroke: 1px rgb(0, 0, 0);
-    background: #FFFFFF;
+    background: #F5F5F0;
+}
+
+.editCoif {
+    width: 100%;
+    height: 40px;
+    color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    margin-left: 0;
+    justify-content: center;
 }
 
 .editCoiffure {
     color: rgb(255, 255, 255, 0);
     -webkit-text-stroke: 1px rgb(0, 0, 0);
-    background: #FFFFFF;
-    margin-top: 70px;
+    background: #F5F5F0;
+    z-index: -999;
+    margin-top: 100px;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 90%;
+    letter-spacing: 2px;
+}
+
+.editContainer {
+    width: 450px;
+    height: 350px;
+}
+
+.valeuEdit {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 70px;
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.premiumEdit {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 70px;
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: #000000;
+    padding: 20px;
+}
+
+.containerAling {
+    margin-top: 50px;
 }
 
 .alingPeau {
@@ -141,6 +261,7 @@ p {
 }
 
 .alingLorem {
+    margin-top: 30px;
     text-align: left;
     margin-left: 200px;
     margin-right: 400px;
@@ -149,24 +270,69 @@ p {
 .alingLorem2 {
     margin-top: 50px;
     margin-right: 710px;
-    margin-left: 250px;
-    
+    margin-left: 230px;
+}
+
+.alingSavoir {
+    margin-left: 400px;
+    margin-right: 750px;
+    font-size: 11px;
+    margin-top: 50px;
+}
+
+.alingArtistes {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.alingDecouv {
+    font-family: 'Lovelace Text';
+    margin: 0;
+    max-width: 460px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-bottom: 60px;
 }
 
 .savoirPlus {
-margin-left: 200px;
-background:#F89369;
-margin-right: 300px;
+    margin-left: 200px;
+    margin-right: 600px;
+    font-size: 11px;
+    margin-top: 50px;
 }
 
 .savoirPlus02 {
     margin-left: 440px;
+    margin-right: 710px;
+    font-size: 11px;
+    margin-top: 50px;
 }
 
 .produitsNos {
     width: 700px;
-    margin-left: 100px;
-    
+    margin-left: 50px;
+    z-index: 30;
+    margin-top: 70px;
+    margin-bottom: -400px;
+    position: relative;
+}
+
+.produitsTout {
+    z-index: 35;
+    position: relative;
+    margin-bottom: -40px;
+}
+
+.iconeSociais {
+    height: 100px;
+    margin-top: 40px;
+    width: 400px;
+    height: 100px;
+    font-size: 50px;
 }
 
 .valorColor {
@@ -178,27 +344,114 @@ margin-right: 300px;
     font-size: 25px;
     font-family: 'Monument Extended';
     gap: 5px;
+    margin: 0;
+    margin-top: -45px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
 }
 
 .fontEdit {
     font-size: 21px;
-    width: 200px;
+    width: 240px;
+    margin-left: 200px;
+    margin-top: 30px;
+    font-family: 'Lovelace Text';
     background: #F89369;
+    line-height: 150%;
+}
+
+.decouvrirEdit {
+    z-index: 999;
+    margin-top: 20px;
+    font-size: 11px;
+}
+
+.coordonnesEdit {
+    margin: 0;
+    width: 609px;
+}
+
+.finalProduct {
+    font-family: 'Lovelace Text' !important;
+    font-size: 30px;
+    text-align: start;
+    margin: 30px 0 28px 0;
+    width: 500px;
+    color: #000000;
+    padding: 0;
+    font-style: normal;
+    font-weight: 400 !important;
+}
+
+.cherryEdit {
+    font-size: 25px;
+    text-align: start;
+    margin: 10px 0;
+    width: 340px;
+    margin-bottom: 30px;
+}
+
+.shopEdit {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #F5F5F0;
+    padding: 0px;
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    font-family: 'MonumentExtended-Regular';
+}
+
+.frenchEdit {
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: start;
+    margin-top: 50px;
+    margin-right: 450px;
+    margin-left: 30px;
+    font-family: 'MonumentExtended-Regular' !important;
+}
+
+.editFont {
+    font-size: 11px;
+}
+
+.chaleureuxEdit {
+    text-align: start;
+    margin: 30px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 150%;
+}
+
+.contatProduct {
+    font-size: 25px;
+    text-align: start;
+    margin: 0;
 }
 
 .corpoPNG01 {
-    width: 450px;
-    right: 100px;
-    margin-left: -500px;
+    width: 500px;
+    right: 200px;
+    margin-left: -400px;
     border-radius: 2px;
+    margin-top: -70px;
+    z-index: 10;
+    position: relative;
 }
 
 .corpoPNG02 {
     width: 333.75px;
     height: 333.75px;
-    margin-top: -400px;
-    margin-left: -700px;
-    z-index: 1;
+    margin-top: -450px;
+    margin-left: -810px;
+    z-index: 20;
+    position: relative;
 }
 
 .corpoPNG03 {
@@ -211,17 +464,16 @@ margin-right: 300px;
 .corpoPNG04 {
     width: 200px;
     height: 380px;
-    margin-left: -310px;
+    margin-left: -370px;
     top: 2000px;
-
 }
 
 .corpoPNG05 {
     width: 450px;
     right: 100px;
-    margin-left: -350px;
     border-radius: 2px;
     margin-left: -500px;
+    margin-top: -60px;
 }
 
 .corpoPNG06 {
@@ -233,18 +485,302 @@ margin-right: 300px;
 }
 
 .corpoPNG10 {
-  padding: 100px;
-  background: #F89369;
-  margin-top: 100px;
+    padding: 100px;
+    background: #F89369;
+    margin-top: 100px;
 }
 
 .corpoPNG11 {
-   padding: 200px;
+    justify-content: center;
+    display: flex;
+    margin-top: -280px;
+}
 
-  }
+.corpoPNG12 {
+    width: 600px;
+    margin-right: 50px;
+    margin-top: -20px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
 
+.alingfooter {
+    padding-top: 50px;
+}
 
+.footerInfo h5 {
+    text-align: start;
+}
+
+.footerInfo h2 {
+    margin-left: 0;
+    margin-right: 100px;
+}
 
 body {
-    
+    background: #F5F5F0;
+}
+
+@media (max-width: 1200px) {
+    .media {
+        flex-direction: column !important;
+        max-width: 800px;
+    }
+
+    .media div:last-child {
+        margin-top: 0;
+        margin-bottom: 100PX;
+    }
+
+    .descrition {
+        margin-top: 50px;
+        width: 100%;
+        margin-left: 0;
+        font-size: 28px;
+        text-align: justify !important;
+    }
+
+
+}
+
+@media (max-width: 992px) {
+    .mediaMD {
+        flex-direction: column-reverse !important;
+        max-width: 800px;
+    }
+
+    .mediaMD div:last-child div img {
+        margin: 0;
+        position: sticky;
+        margin-left: 100px;
+    }
+
+    .mediaMD div:last-child div:first-child img {
+        margin-left: 300px;
+
+    }
+
+    .mediaMD .testeZ div:last-child {
+        margin: 0;
+        position: relative;
+        margin-top: -400px;
+    }
+
+    .alingBarbe h6 {
+        width: 180px;
+    }
+
+    .alingLorem2 {
+        width: 430px;
+        text-align: justify;
+        margin: 0 auto;
+    }
+
+    .containerAling h6 {
+        width: 200px;
+    }
+
+    .mediap {
+        margin: 0 auto;
+        width: 400px;
+    }
+
+    .footerMedia {
+        width: 410px;
+    }
+
+    .rightsReserved p {
+        margin: 0;
+    }
+}
+
+.mobile53 {
+    display: none;
+
+}
+
+@media (max-width: 768px) {
+
+    .mobile53 {
+        display: block;
+    }
+
+    .desktop {
+        display: none !important;
+    }
+
+    .cardThree,
+    .cardOne {
+        transform: rotate(0);
+        height: 639px;
+    }
+
+    .cardOne,
+    .cardTwo {
+        margin-bottom: 200px;
+    }
+
+    .cardTwo {
+        top: 326.56px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .marco-gostoso {
+        max-width: 400px;
+
+    }
+
+    .marco-gostoso h4 {
+        margin: 20px auto;
+        max-width: 400px;
+    }
+
+    .marco-gostoso h5 {
+        margin: 20px auto;
+        max-width: 400px;
+        text-align: justify !important;
+    }
+
+    .marco-gostoso h6 {
+        margin: 20px auto;
+        margin-right: -10px;
+        max-width: 400px;
+    }
+
+    .marco-gostoso img {
+        margin: 20px auto !important;
+        max-width: 400px;
+    }
+
+    .testeZ div:first-child img {
+        margin-right: -200px !important;
+        left: 500px;
+    }
+
+    .testeZ2 div:last-child {
+        margin: 0;
+        position: relative;
+        margin-top: -400px;
+    }
+
+    .testeZ2 div:first-child img {
+        margin-right: -140px !important;
+        left: 500px;
+    }
+
+    .corpoPNG10img {
+        max-width: 376px;
+    }
+
+}
+
+@media (max-width: 575px) {
+
+    .mobile66 {
+        max-width: 300px;
+    }
+
+    .mobile66 h1 {
+        font-size: 28px;
+    }
+
+    .mobile66 p {
+        max-width: 250px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .mobile66 h2 {
+        margin: 0;
+        padding: 0 0 180px 0px;
+        margin-top: 50px;
+    }
+
+    .mobile99 {
+        max-width: 300px;
+    }
+
+    .mobile99 h4 {
+        max-width: 300px;
+        font-size: 30px;
+        margin: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .mobile99 h5 {
+        max-width: 300px;
+        font-size: 14px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .mobile99 h6 {
+        margin: 0 auto;
+    }
+
+    .alingPeau {
+        margin: 0 auto;
+    }
+
+    .alingPeau .mobile99 {
+        margin: 0 auto;
+    }
+
+    .corpoPNG04 {
+        width: 80px;
+        height: 150px;
+        margin-top: -500px;
+        margin-left: -480px;
+    }
+
+    .corpoPNG10 {
+        padding: 0;
+    }
+
+    .corpoPNG10img {
+        width: 300px;
+    }
+
+    .corpoPNG10 div {
+        max-width: 300px;
+        margin: 20px auto;
+    }
+
+    .iconeSociais {
+        margin: 0 auto;
+        max-width: 300px;
+    }
+
+    .cardOne,
+    .cardTwo,
+    .cardThree {
+        max-width: 300px;
+    }
+
+    .footerMedia {
+        max-width: 300px;
+    }
+
+    .editContainer {
+        max-width: 300px;
+    }
+
+    .editContainer p {
+        margin: 0 auto;
+        max-width: 300px;
+    }
+
+    .editContainer h2 {
+        margin: 0 auto;
+        max-width: 300px;
+    }
+
+    .editContainer h5 {
+        margin: 0 auto;
+        max-width: 300px;
+    }
+
 }
