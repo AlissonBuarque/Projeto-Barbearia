@@ -15,7 +15,7 @@
 }
 
 .bodyCuston {
-    background-image: url(IMG/Topo.png);
+    background-image: url(assets/Topo.png);
     background-repeat: no-repeat;
     background-color: #131313;
     background-position: center;
@@ -26,7 +26,7 @@
 }
 
 header {
-    background-image: url(IMG/Topo.png);
+    background-image: url(assets/Topo.png);
     background-repeat: repeat;
     background-position: center;
     background-color: #131313;
@@ -267,7 +267,7 @@ p {
     margin-right: 400px;
 }
 
-.alingLorem2 {
+.loremIpsum {
     margin-top: 50px;
     margin-right: 710px;
     margin-left: 230px;
@@ -305,7 +305,7 @@ p {
     margin-top: 50px;
 }
 
-.savoirPlus02 {
+.enSavoirEdit {
     margin-left: 440px;
     margin-right: 710px;
     font-size: 11px;
@@ -435,7 +435,7 @@ p {
     margin: 0;
 }
 
-.corpoPNG01 {
+.imgBarber {
     width: 500px;
     right: 200px;
     margin-left: -400px;
@@ -445,7 +445,7 @@ p {
     position: relative;
 }
 
-.corpoPNG02 {
+.pngBarber {
     width: 333.75px;
     height: 333.75px;
     margin-top: -450px;
@@ -454,21 +454,21 @@ p {
     position: relative;
 }
 
-.corpoPNG03 {
+.imgLapeau {
     width: 450px;
     right: 100px;
     margin-left: 70px;
     margin-top: -110px;
 }
 
-.corpoPNG04 {
+.pngLapeau {
     width: 200px;
     height: 380px;
     margin-left: -370px;
     top: 2000px;
 }
 
-.corpoPNG05 {
+.cheveuImg {
     width: 450px;
     right: 100px;
     border-radius: 2px;
@@ -476,7 +476,7 @@ p {
     margin-top: -60px;
 }
 
-.corpoPNG06 {
+.cheveuPng {
     width: 200px;
     height: 380px;
     z-index: 1;
@@ -484,7 +484,7 @@ p {
     margin-top: -450px;
 }
 
-.corpoPNG10 {
+.netteBarber {
     padding: 100px;
     background: #F89369;
     margin-top: 100px;
@@ -560,7 +560,7 @@ body {
 
     }
 
-    .mediaMD .testeZ div:last-child {
+    .mediaMD .alingImg div:last-child {
         margin: 0;
         position: relative;
         margin-top: -400px;
@@ -570,7 +570,7 @@ body {
         width: 180px;
     }
 
-    .alingLorem2 {
+    .loremIpsum {
         width: 430px;
         text-align: justify;
         margin: 0 auto;
@@ -594,14 +594,14 @@ body {
     }
 }
 
-.mobile53 {
+.containerMobile {
     display: none;
 
 }
 
 @media (max-width: 768px) {
 
-    .mobile53 {
+    .containerMobile {
         display: block;
     }
 
@@ -654,23 +654,23 @@ body {
         max-width: 400px;
     }
 
-    .testeZ div:first-child img {
+    .alingImg div:first-child img {
         margin-right: -200px !important;
         left: 500px;
     }
 
-    .testeZ2 div:last-child {
+    .containerEdit div:last-child {
         margin: 0;
         position: relative;
         margin-top: -400px;
     }
 
-    .testeZ2 div:first-child img {
+    .containerEdit div:first-child img {
         margin-right: -140px !important;
         left: 500px;
     }
 
-    .corpoPNG10img {
+    .netteBarberPng {
         max-width: 376px;
     }
 
@@ -698,11 +698,11 @@ body {
         margin-top: 50px;
     }
 
-    .mobile99 {
+    .mobileresolution {
         max-width: 300px;
     }
 
-    .mobile99 h4 {
+    .mobileresolution h4 {
         max-width: 300px;
         font-size: 30px;
         margin: 0;
@@ -710,14 +710,14 @@ body {
         margin-bottom: 20px;
     }
 
-    .mobile99 h5 {
+    .mobileresolution h5 {
         max-width: 300px;
         font-size: 14px;
         text-align: center;
         margin: 0;
     }
 
-    .mobile99 h6 {
+    .mobileresolution h6 {
         margin: 0 auto;
     }
 
@@ -725,26 +725,26 @@ body {
         margin: 0 auto;
     }
 
-    .alingPeau .mobile99 {
+    .alingPeau .mobileresolution {
         margin: 0 auto;
     }
 
-    .corpoPNG04 {
+    .pngLapeau {
         width: 80px;
         height: 150px;
         margin-top: -500px;
         margin-left: -480px;
     }
 
-    .corpoPNG10 {
+    .netteBarber {
         padding: 0;
     }
 
-    .corpoPNG10img {
+    .netteBarberPng {
         width: 300px;
     }
 
-    .corpoPNG10 div {
+    .netteBarber div {
         max-width: 300px;
         margin: 20px auto;
     }
