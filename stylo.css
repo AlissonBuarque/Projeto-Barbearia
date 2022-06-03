@@ -109,6 +109,11 @@ p {
     color: #FFFFFF;
 }
 
+.desHommes {
+    margin-top: 100px;
+    margin-bottom: -50px;
+}
+
 .laBarbeEdit {
     left: 25px;
     margin-top: 50px;
@@ -118,7 +123,7 @@ p {
     width: 380px;
 }
 
-.tonte {
+.rasageTont {
     transform: rotate(-2deg);
     width: 100%;
     margin-top: -40px;
@@ -129,7 +134,6 @@ p {
 
 .tonteNous {
     transform: rotate(2deg);
-    background: #F89369;
     z-index: -10;
     position: relative;
 }
@@ -280,7 +284,7 @@ p {
     margin-top: 50px;
 }
 
-.alingArtistes {
+.ConsectContainer {
     text-align: center;
     width: 100%;
     margin: 0;
@@ -490,13 +494,13 @@ p {
     margin-top: 100px;
 }
 
-.corpoPNG11 {
+.decouvrirPng {
     justify-content: center;
     display: flex;
     margin-top: -280px;
 }
 
-.corpoPNG12 {
+.cintacterPng {
     width: 600px;
     margin-right: 50px;
     margin-top: -20px;
@@ -560,7 +564,7 @@ body {
 
     }
 
-    .mediaMD .alingImg div:last-child {
+    .mediaMD .cintacterImg div:last-child {
         margin: 0;
         position: relative;
         margin-top: -400px;
@@ -580,7 +584,7 @@ body {
         width: 200px;
     }
 
-    .mediap {
+    .taillerEdit {
         margin: 0 auto;
         width: 400px;
     }
@@ -627,34 +631,34 @@ body {
 
 @media (max-width: 768px) {
 
-    .marco-gostoso {
+    .alignContainers {
         max-width: 400px;
 
     }
 
-    .marco-gostoso h4 {
+    .alignContainers h4 {
         margin: 20px auto;
         max-width: 400px;
     }
 
-    .marco-gostoso h5 {
+    .alignContainers h5 {
         margin: 20px auto;
         max-width: 400px;
         text-align: justify !important;
     }
 
-    .marco-gostoso h6 {
+    .alignContainers h6 {
         margin: 20px auto;
         margin-right: -10px;
         max-width: 400px;
     }
 
-    .marco-gostoso img {
+    .alignContainers img {
         margin: 20px auto !important;
         max-width: 400px;
     }
 
-    .alingImg div:first-child img {
+    .cintacterImg div:first-child img {
         margin-right: -200px !important;
         left: 500px;
     }
@@ -678,21 +682,21 @@ body {
 
 @media (max-width: 575px) {
 
-    .mobile66 {
+    .mobileResolution {
         max-width: 300px;
     }
 
-    .mobile66 h1 {
+    .mobileResolution h1 {
         font-size: 28px;
     }
 
-    .mobile66 p {
+    .mobileResolution p {
         max-width: 250px;
         margin: 0 auto;
         padding: 0;
     }
 
-    .mobile66 h2 {
+    .mobileResolution h2 {
         margin: 0;
         padding: 0 0 180px 0px;
         margin-top: 50px;
@@ -714,7 +718,7 @@ body {
         max-width: 300px;
         font-size: 14px;
         text-align: center;
-        margin: 0;
+        margin: 20px auto;
     }
 
     .mobileresolution h6 {
@@ -764,23 +768,115 @@ body {
         max-width: 300px;
     }
 
+    .footerMedia h2 {
+        margin: 0;
+    }
+
     .editContainer {
         max-width: 300px;
     }
 
     .editContainer p {
-        margin: 0 auto;
+        margin: 20px auto;
         max-width: 300px;
+        text-align: center;
     }
 
     .editContainer h2 {
         margin: 0 auto;
         max-width: 300px;
+        text-align: center;
     }
 
     .editContainer h5 {
         margin: 0 auto;
         max-width: 300px;
+        text-align: center;
     }
 
+    .alingBarbe {
+        margin: 0 auto;
+    }
+
+    .iconeSociais {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px !important;
+    }
+
+    .cintacterPng {
+        margin: 0 auto;
+        max-width: 300px;
+        margin-bottom: 100px;
+    }
+
+    .tonteNous h3 {
+        font-size: 55px;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+ 
+
+    .ConsectContainer {
+        font-size: 30px;
+    }
+
+    .produitsNos {
+        font-size: 30px;
+        max-width: 300px;
+        margin-top: 100px;
+    }
+
+    .containerAling {
+        margin: 50px auto 0 auto;
+    }
+
+    .containerAling .loremIpsum {
+        text-align: center !important;
+        margin-bottom: 30px;
+    }
+
+    .editCoiffure {
+        font-size: 70px;
+        max-width: 300px;
+        margin-top: 100px;
+    }
+
+    .containerEdit .cheveuImg {
+        height: 310px;
+        padding-right: 150px;
+    }
+
+    .imgLapeau {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .imgBarber {
+        height: 310px;
+        padding-right: 150px;
+    }
+
+    .pngBarber {
+        height: 200px;
+        width: 200px;
+        margin: 0px 0px;
+    }
+
+    .ajustCut{
+        width: 365px;
+        height: 375px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .rasageTont h3 {
+        font-size: 55px;
+        text-align: center;
+        margin: 0;
+    }
+    
 }
